@@ -93,8 +93,8 @@ func (r *mutationResolver) CreateLink(ctx context.Context, input NewLink) (*Link
 </Instruction>
 
 Hopefully you understand this piece of code, we create a link object from input and save it to database then return newly created link(notice that we convert the ID to string with `strconv.FormatInt`).
-note that here we have 2 structs for Link in our project, one is use for our graphql server and one is for our database.
-run the server and open graphiql page to test what we just wrote:
+Note that here we have 2 structs for Link in our project, one is use for our graphql server and one is for our database.
+Run the server and open graphql page to test what we just wrote:
 
 <Instruction>
 
