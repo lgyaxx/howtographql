@@ -22,7 +22,7 @@ This function receives a `NewLink` with type of `input` we defined NewLink struc
 
 <Instruction>
 
-Try to Construct a `Link` object we defined in our `schema.ghraphql`:
+Try to Construct a `Link` object we defined in our `schema.graphql`:
 ```go
 func (r *mutationResolver) CreateLink(ctx context.Context, input NewLink) (*Link, error) {
 	var link Link
